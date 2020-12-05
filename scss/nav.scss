@@ -1,0 +1,46 @@
+nav {
+  height: 110px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  padding: 0 18rem 0 18rem;
+  z-index: 99;
+
+  a {
+    color: $text-primary;
+    text-decoration: none;
+  }
+
+  .nav-left {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    .name {
+      @include nav-name;
+    }
+  }
+
+  .nav-right {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    .links {
+      @include nav-link;
+
+      a {
+        margin-left: 20px;
+      }
+
+      .active {
+        border-bottom: $text-primary 0.125em solid;
+      }
+    }
+  }
+}

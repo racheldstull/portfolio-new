@@ -1,0 +1,26 @@
+main {
+
+  #splash {
+    min-height: 100vh;
+    width: 100vw;
+    background: url("../img/home/bg-v2.jpg") center repeat;
+    background-size: cover;
+
+    &:before
+    {
+      display:block;
+      content:'';
+      position:absolute;
+      width:100%;
+      height:100%;
+      -moz-box-shadow:inset 0px 0px 30px 3px rgba(250,250,250,1);
+      -webkit-box-shadow:inset 0px 0px 30px 3px rgba(250,250,250,1);
+      box-shadow:inset 0px 0px 30px 3px rgba(250,250,250,1);
+    }
+  }
+
+  #about {
+    min-height: 100vh;
+    width: 100vw;
+  }
+}
