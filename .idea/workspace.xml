@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a3fd56-3311-4b98-8979-9e7270ce54aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/project.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/projects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/structure.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/structure.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hammy.html" beforeDir="false" afterPath="$PROJECT_DIR$/hammy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nebula.html" beforeDir="false" afterPath="$PROJECT_DIR$/nebula.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nihonkenchiku.html" beforeDir="false" afterPath="$PROJECT_DIR$/nihonkenchiku.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +72,7 @@
       <workItem from="1607242549141" duration="1638000" />
       <workItem from="1607383777311" duration="70000" />
       <workItem from="1607410958266" duration="6320000" />
-      <workItem from="1607492899828" duration="21077000" />
+      <workItem from="1607492899828" duration="21665000" />
     </task>
     <servers />
   </component>
