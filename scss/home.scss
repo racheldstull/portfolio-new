@@ -6,21 +6,186 @@ main {
     background: url("../img/home/bg-v2.jpg") center repeat;
     background-size: cover;
 
-    &:before
-    {
-      display:block;
-      content:'';
-      position:absolute;
-      width:100%;
-      height:100%;
-      -moz-box-shadow:inset 0px 0px 30px 3px rgba(250,250,250,1);
-      -webkit-box-shadow:inset 0px 0px 30px 3px rgba(250,250,250,1);
-      box-shadow:inset 0px 0px 30px 3px rgba(250,250,250,1);
+    .splash-wrapper {
+      height: 100vh;
+      width: 100vw;
+      padding: $margin;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      .splash-wrapper-left {
+        width: 10%;
+      }
+
+      .splash-wrapper-right {
+        height: 90vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+
+        .splash-wrapper-top {
+          height: 90%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          .splash-wrapper-text {
+
+            h1 {
+              margin-bottom: -2.5rem;
+            }
+          }
+
+          .splash-wrapper-works {
+            padding-bottom: 6rem;
+
+            .splash-wrapper-works-bubble {
+              height: 6rem;
+              width: 6rem;
+              background-color: $light-gray;
+              border-radius: 3rem;
+              position: absolute;
+            }
+
+            a {
+              @include nav-name;
+              margin: 1.8rem 0 0 3rem;
+              position: absolute;
+              transition: $trans;
+
+              &:hover {
+                color: $color-primary;
+              }
+            }
+          }
+        }
+
+        .splash-wrapper-bottom {
+          height: 10vh;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+
+          .splash-wrapper-scroll {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+              @include nav-name;
+              text-align: center;
+              color: $text-tertiary;
+            }
+          }
+
+          .splash-wrapper-social {
+            position: absolute;
+            right: 18rem;
+
+            a {
+              font-size: 3.4rem;
+              color: $text-primary;
+              padding-left: 2rem;
+              transition: $trans;
+
+              &:hover {
+                color: $color-primary;
+              }
+            }
+          }
+        }
+      }
     }
   }
 
   #about {
+    width: 100vw;
+    margin: 20rem 0 13rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .about-wrapper {
+      width: 30%;
+      margin-left: -10%;
+
+      p {
+        margin-bottom: 1.6rem;
+      }
+    }
+  }
+
+  #skills {
+    height: 50rem;
+    width: 100vw;
+
+    .skills-wrapper {
+      display: flex;
+      flex-direction: column;
+      padding: $margin;
+
+      .skills-wrapper-top, .skills-wrapper-bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding-bottom: 2rem;
+
+        .skills-wrapper-item {
+          padding: 0 2.5rem;
+          text-align: center;
+
+          i, .iconify {
+            font-size: 8rem;
+            color: $text-secondary;
+          }
+
+          h4 {
+            padding-top: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  #contact {
     min-height: 100vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $black;
+    color: $white;
+
+    h3 {
+      color: $white;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      select, option, label {
+        font-family: $font-primary;
+      }
+
+      input, textarea {
+        font-family: "Roboto", sans-serif;
+        padding: 5px;
+      }
+
+      label {
+        padding: 15px 0 5px 0;
+      }
+
+      input[type=submit]{
+        margin-top: 15px;
+      }
+    }
   }
 }

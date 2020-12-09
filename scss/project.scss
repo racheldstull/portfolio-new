@@ -1,0 +1,328 @@
+main {
+
+  .breadcrumbs {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    font-style: italic;
+    color: $text-secondary;
+    padding: 16rem 0 7rem 11rem;
+
+    a {
+      color: $text-secondary;
+    }
+
+    span {
+      border-bottom: $text-tertiary 0.125em solid;
+    }
+  }
+
+  #intro {
+    width: 100vw;
+    padding: $margin;
+    padding-bottom: 20rem;
+    display: flex;
+    flex-direction: column;
+
+    .intro-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 8rem 0 14rem 0;
+
+      .intro-title-bubble {
+        height: 6rem;
+        width: 6rem;
+        margin-top: -5rem;
+        margin-left: -2rem;
+        background-color: $light-gray;
+        border-radius: 3rem;
+        position: absolute;
+        z-index: 1;
+      }
+
+      .intro-title-text {
+        position: absolute;
+        z-index: 2;
+
+        h1 {
+          margin-bottom: -2.5rem;
+        }
+      }
+    }
+
+    .intro-details {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+
+      .intro-details-column {
+        width: 16.6%;
+        padding-right: 4%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .intro-details-about {
+        width: 50%;
+
+        .intro-details-about-links {
+          padding-top: 2.5rem;
+
+          a {
+            font-family: "Poppins", sans-serif;
+            font-size: 1.6rem;
+            color: $color-primary;
+            padding-right: 1.5rem;
+
+            i {
+              font-size: 1.2rem;
+              line-height: 1.6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #ux {
+    width: 100vw;
+    padding: $margin;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+      padding-bottom: 4rem;
+    }
+
+    .ux-row {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 22rem;
+
+      .ux-persona-column {
+        width: 58%;
+        padding-right: 2%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .ux-ad-img {
+        width: 100%;
+        padding: 0 14rem;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  #design {
+    width: 100vw;
+    padding: $margin;
+    padding-bottom: 20rem;
+
+    .design-type-color {
+
+      h4 {
+        padding-bottom: 6rem;
+      }
+
+      .design-type {
+
+        .design-type-obj {
+          display: flex;
+          flex-direction: row;
+
+          .design-type-obj-left {
+            padding-right: 3rem;
+
+            .type-obj-aa {
+              font-family: "Roboto", sans-serif;
+              font-size: 20rem;
+              color: $gray;
+            }
+          }
+
+          .design-type-obj-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .design-type-obj-top {
+
+              p {
+                font-family: "Roboto", sans-serif;
+                font-size: 2.6rem;
+                font-weight: 500;
+              }
+            }
+
+            .design-type-obj-mid {
+              display: flex;
+              flex-direction: row;
+
+              p {
+                font-family: "Roboto", sans-serif;
+                font-size: 1.6rem;
+                padding-right: 1rem;
+              }
+
+              .design-text-reg {
+                font-weight: 400;
+              }
+
+              .design-text-med {
+                font-weight: 500;
+              }
+            }
+
+            .design-type-obj-bottom {
+
+              p {
+                font-size: 1.6rem;
+              }
+            }
+          }
+        }
+      }
+
+      .design-color {
+        width: 100%;
+
+        p {
+          padding: 6rem 0 1rem 0;
+        }
+
+        .design-colors-list {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-items: center;
+          align-items: center;
+
+          .design-color-item {
+            height: 10rem;
+            width: 14%;
+            margin-right: 2.6%;
+            border-radius: 1rem;
+            background-color: #93bfec;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+
+            p {
+              padding-right: 2rem;
+            }
+          }
+
+          .design-color-dark {
+            p {
+              color: $white;
+              font-weight: 500;
+            }
+          }
+
+          .design-color-light {
+            border: 1px #D1D1D1 solid;
+
+            p {
+              color: $text-secondary;
+              font-weight: 400;
+            }
+          }
+
+          .design-color-blue {
+            background-color: #0C689B;
+          }
+
+          .design-color-red {
+            background-color: #DA0000;
+          }
+
+          .design-color-green {
+            background-color: #1DDD6A;
+          }
+
+          .design-color-yellow {
+            background-color: #FFC24D;
+          }
+
+          .design-color-creme {
+            background-color: #F7F8F6;
+          }
+
+          .design-color-white {
+            background-color: #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+
+  #screens {
+    width: 100vw;
+    padding: $margin;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+      padding-bottom: 4rem;
+    }
+
+    .screen-row {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 15rem;
+
+      .screen-column {
+        width: 50%;
+
+        img {
+          width: 40%;
+          margin-right: 5%;
+          border: $white 1rem solid;
+          border-radius: 1rem;
+          box-shadow: 0 4px 4px rgba(194,194,194,0.25);
+        }
+      }
+
+      .screen-column-text {
+        flex-direction: column;
+      }
+    }
+
+    .row-odd {
+      flex-direction: row-reverse;
+
+      .screen-column-text {
+        padding-right: 5%;
+      }
+    }
+
+    .screens-wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .screen-wrapper-item {
+        padding: $margin;
+        margin: 5rem 0 2rem 0;
+
+        img {
+          width: 100%;
+          border: $white 1rem solid;
+          border-radius: 1rem;
+          //box-shadow: 0 4px 4px rgba(194,194,194,0.25);
+        }
+      }
+    }
+  }
+}

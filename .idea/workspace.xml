@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="55a3fd56-3311-4b98-8979-9e7270ce54aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/jquery-3.3.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/project.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/projects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/structure.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/structure.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +53,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Documents\Web\portfolio-new\lib" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\Web\portfolio-new" />
       <recent name="D:\Documents\Web\portfolio-new\www" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Web\portfolio-new\lib" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,7 +76,11 @@
       <option name="presentableId" value="Default" />
       <updated>1607133784867</updated>
       <workItem from="1607133785906" duration="119000" />
-      <workItem from="1607134652099" duration="6056000" />
+      <workItem from="1607134652099" duration="12994000" />
+      <workItem from="1607242549141" duration="1638000" />
+      <workItem from="1607383777311" duration="70000" />
+      <workItem from="1607410958266" duration="6320000" />
+      <workItem from="1607492899828" duration="21077000" />
     </task>
     <servers />
   </component>
@@ -68,13 +88,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607133902983">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607443311066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607133902983" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607137681797">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607443311066" />
+    <state x="561" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607153547135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607137681797" />
+    <state x="561" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607153547135" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1607498807122">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607498807122" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607516025312">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607516025312" />
   </component>
 </project>

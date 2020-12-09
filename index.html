@@ -10,22 +10,181 @@
           integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
           crossorigin="anonymous"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <title>Rachel Stull | Web Developer and Designer</title>
 </head>
 <body>
 
-<!-- ------------------ Navigation ------------------ -->
+<!-- --------------------- Modal ---------------------- -->
+<div id="modal">
+    <svg class="spinner" viewBox="0 0 50 50">
+        <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+    </svg>
+</div>
+
+<!-- ------------------- Navigation ------------------- -->
 <nav></nav>
 
 <!-- ------------------ Main Content ------------------ -->
 <main>
-    <div id="splash"></div>
-    <div id="about"></div>
+    <div id="splash">
+        <div class="splash-wrapper">
+            <div class="splash-wrapper-left"></div>
+            <div class="splash-wrapper-right">
+                <div class="splash-wrapper-top">
+                    <div class="splash-wrapper-text">
+                        <h1>Rachel Stull</h1>
+                        <h2>Web Developer and Designer</h2>
+                    </div>
+                    <div class="splash-wrapper-works">
+                        <div class="splash-wrapper-works-bubble"></div>
+                        <a href="projects.html">View my works ></a>
+                    </div>
+                </div>
+                <div class="splash-wrapper-bottom">
+                    <div class="splash-wrapper-scroll">
+                        <a href="#about">Scroll <br> <i class="fas fa-chevron-down"></i></a>
+                    </div>
+                    <div class="splash-wrapper-social">
+                        <a href="https://www.linkedin.com/in/racheldstull/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/racheldstull" target="_blank"><i class="fab fa-github-square"></i></i></a>
+                        <a href="https://twitter.com/rachelstull62" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="about-wrapper">
+            <h3>About Me</h3>
+            <p>I am a full-stack web developer with a background in game development,
+                graphic design, photography, user experience design, user interface
+                design, and Japanese.</p>
+
+            <p>In the spring of 2021, I will graduate with a BS in Media Arts and
+                Science, double specializing in web development and game development.
+                After graduation, I will begin working towards an MS in Human-Computer
+                Interaction. I have completed a minor in Japanese Studies.</p>
+
+            <p>My involvement and interest in international affairs and cross-cultural
+                experiences have earned me a place as a Plater International Scholar.
+                In the summer of 2017, I traveled to Miyoshi, Aichi, Japan, on behalf
+                of the city government to strengthen relations between our sister
+                cities. In the winter of 2020, I completed a semester at an intensive
+                Japanese language school in Tokyo.</p>
+
+            <p>I hope for nothing more than to create applications and experiences to
+                benefit others around the world.</p>
+        </div>
+    </div>
+    <div id="skills">
+        <div class="skills-wrapper">
+            <div class="skills-wrapper-top">
+                <div class="skills-wrapper-item">
+                    <i class="fab fa-html5"></i>
+                    <h4>HTML5</h4>
+                </div>
+                <div class="skills-wrapper-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <h4>CSS3</h4>
+                </div>
+                <div class="skills-wrapper-item">
+                    <i class="fab fa-js"></i>
+                    <h4>JavaScript</h4>
+                </div>
+                <div class="skills-wrapper-item">
+                    <i class="fab fa-php"></i>
+                    <h4>PHP</h4>
+                </div>
+                <div class="skills-wrapper-item">
+                    <i class="fab fa-sass"></i>
+                    <h4>Sass</h4>
+                </div>
+                <div class="skills-wrapper-item">
+                    <span class="iconify" data-icon="whh:mysqltwo" data-inline="false"></span>
+                    <h4>MySQL</h4>
+                </div>
+                <div class="skills-wrapper-item">
+                    <span class="iconify" data-icon="simple-icons:mariadb" data-inline="false"></span>
+                    <h4>MariaDB</h4>
+                </div>
+                <div class="skills-wrapper-item">
+                    <span class="iconify" data-icon="bx:bxl-jquery" data-inline="false"></span>
+                    <h4>jQuery</h4>
+                </div>
+            </div>
+            <div class="skills-wrapper-bottom">
+                <div class="skills-wrapper-item">
+                    <i class="fab fa-figma"></i>
+                    <h4>Figma</h4>
+                </div>
+                <div class="skills-wrapper-item">
+                    <span class="iconify" data-icon="file-icons:adobe-photoshop" data-inline="false"></span>
+                    <h4>Photoshop</h4>
+                </div>
+                <div class="skills-wrapper-item">
+                    <span class="iconify" data-icon="file-icons:adobe-illustrator" data-inline="false"></span>
+                    <h4>Illustrator</h4>
+                </div>
+                <div class="skills-wrapper-item">
+                    <span class="iconify" data-icon="file-icons:adobe-aftereffects" data-inline="false"></span>
+                    <h4>After Effects</h4>
+                </div>
+                <div class="skills-wrapper-item">
+                    <span class="iconify" data-icon="file-icons:adobe-premiere" data-inline="false"></span>
+                    <h4>Premiere</h4>
+                </div>
+                <div class="skills-wrapper-item">
+                    <i class="fab fa-invision"></i>
+                    <h4>InVision</h4>
+                </div>
+                <div class="skills-wrapper-item">
+                    <i class="fab fa-unity"></i>
+                    <h4>Unity</h4>
+                </div>
+                <div class="skills-wrapper-item">
+                    <span class="iconify" data-icon="file-icons:unrealscript" data-inline="false"></span>
+                    <h4>Unreal Engine</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="preview"></div>
+<!--    <div id="contact">-->
+<!--        <h3>Contact Me</h3>-->
+<!--        <form action="#">-->
+<!--            <label for="fname">First Name:</label>-->
+<!--            <input type="text" id="fname" name="fname" required>-->
+
+<!--            <label for="lname">Last Name:</label>-->
+<!--            <input type="text" id="lname" name="lname" required>-->
+
+<!--            <label for="email">Your Email:</label>-->
+<!--            <input type="text" id="email" name="email" required>-->
+
+<!--            <label for="subject">How can I help you?</label>-->
+<!--            <select name="subject" id="subject" required>-->
+<!--                <option value="employer">I am an employer looking for an interview</option>-->
+<!--                <option value="client">I have a business opportunity</option>-->
+<!--                <option value="client">I am a publisher</option>-->
+<!--                <option value="client">I am from the media</option>-->
+<!--                <option value="info">I am requesting information</option>-->
+<!--                <option value="info">I have an issue</option>-->
+<!--                <option value="other">Other</option>-->
+<!--            </select>-->
+
+<!--            <label for="message">Message:</label>-->
+<!--            <textarea id="message" name="message" rows="8" cols="50" required></textarea>-->
+
+<!--            <input type="submit" value="Submit">-->
+<!--        </form>-->
+
+<!--    </div>-->
 </main>
 
-<!-- -------------------- Footer -------------------- -->
+<!-- --------------------- Footer --------------------- -->
 <footer></footer>
 
 

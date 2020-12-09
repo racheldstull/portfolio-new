@@ -4,12 +4,12 @@ nav {
   position: fixed;
   display: flex;
   flex-direction: row;
-  padding: 0 18rem 0 18rem;
+  padding: 0 11rem;
+  background-color: $off-white;
   z-index: 99;
 
   a {
     color: $text-primary;
-    text-decoration: none;
   }
 
   .nav-left {
@@ -21,6 +21,14 @@ nav {
 
     .name {
       @include nav-name;
+
+      a {
+        transition: $trans;
+
+        &:hover {
+          color: $text-tertiary;
+        }
+      }
     }
   }
 
@@ -34,12 +42,23 @@ nav {
     .links {
       @include nav-link;
 
-      a {
-        margin-left: 20px;
-      }
+      .nav-link-tray {
+        display: flex;
+        flex-direction: row;
 
-      .active {
-        border-bottom: $text-primary 0.125em solid;
+        .nav-item {
+          list-style: none;
+          margin-left: 20px;
+
+          a {
+            transition: $trans;
+
+            &:hover {
+              color: $text-tertiary;
+              border-bottom: $text-tertiary 0.125em solid;
+            }
+          }
+        }
       }
     }
   }
